@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+    <h1>Student Performance Dashboard</h1>
+    <p class="author">Created by Rahul Kumar | B.Tech CSE</p>
+    <p>Data Visualization Internship Project</p>
+</header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Student Marks</h2>
+            <canvas id="marksChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h2>Student Attendance</h2>
+            <canvas id="attendanceChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h2>Attendance vs Marks</h2>
+            <canvas id="scatterChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h2>Project Insights</h2>
+            <ul>
+                <li>Higher attendance generally leads to better marks.</li>
+                <li>Most students scored between 70–90.</li>
+                <li>Students above 85% attendance perform better.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
